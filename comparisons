@@ -1,0 +1,11 @@
+Docker:-
+  -Runs only on linux platform.
+  -Monolyth
+  
+
+Rocket:-
+Strictly maintains the modularities, each piece is independent from another. e.g. Building image is seperate from image discovery.
+
+
+Ref:-
+[http://3ofcoins.net/2014/12/06/of-containers-dockers-rockets-and-daemons/]
