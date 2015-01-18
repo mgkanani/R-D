@@ -1,9 +1,12 @@
 Docker:-
   -Runs only on linux platform.
   -Monolyth
+  - 1+ year in real production environment.
   
+  //-there were security flaws running on other platform(containerizing it using lxc).
 
 Rocket:-
+  -systemd as init system for linux distribution.
 Strictly maintains the modularities, each piece is independent from another. e.g. Building image is seperate from image discovery.
 
 
