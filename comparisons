@@ -1,5 +1,15 @@
-Docker:-
-  -Runs only on linux platform.
+Docker and Rocket:-
+  Design differences :-
+    Both uses systemd for creating contrainers but in different ways. Docker follows client-server architecture. User 
+    communicates to docker-daemon using docker-client. client requests daemon to create docker container. Since docker
+    -daemon is creating container instead of client, this makes difficult to control containers for systemd. Docker 
+    daemon controls contrainers. While in case of Rocket, systemd controls the contrainers.
+    
+  
+User's point of view:-
+  -Deploying docker container on core-os is time consuming.
+  -Docker's end-user interfaces are attractive compared to Rocket.
+  
   -Monolyth
   - 1+ year in real production environment.
   
@@ -12,3 +22,4 @@ Strictly maintains the modularities, each piece is independent from another. e.g
 
 Ref:-
 [http://3ofcoins.net/2014/12/06/of-containers-dockers-rockets-and-daemons/]
+[http://www.ibuildthecloud.com/]
