@@ -1,0 +1,11 @@
+There are two types of phylosophy which are more or less similar:-
+1)Hardware virtualization
+2)Clustering
+
+In hardware virtualiztion solutions, you are not worrying about underlying hardware and how it is happening.
+In clustering solutions, to solve your problem you are not worrying about how many machines are used and 
+which machine is performing which task.
+
+Hardware virtualization                  Clustering
+single machine                         Single cluster
+many cores, memory etc..               multiple machines and their configurations and topology
